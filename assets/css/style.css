@@ -15,8 +15,8 @@
 	line-height:90px;
 	margin-left:80px;
 	color:white;
-	float:left;
 	display:inline-block;
+	float: left;
 }
 
 .aboutMeText {
@@ -40,9 +40,10 @@
 	border: #dddddd solid 1px;
 	width: 650px;
 	margin: 30px 30px 30px 80px;
+	display:inline-block;
 }
 body {
-	background-image:url(swirl_pattern/swirl_pattern.png)
+	background-image:url(../images/kindajean/kindajean.png)
 }
 
 .header {
@@ -57,7 +58,6 @@ body {
 
 h1 {
 	font-family:"Georgia", Times, "Times New Roman", serif;
-}
 
 }
 
@@ -75,4 +75,21 @@ html, body {
 	text-align:center;
 	vertical-align:middle;
 	line-height:80px;
+}
+
+p {
+	text-indent: 30px;	
+}
+
+a {
+	color: #B9B3AC;
+	font-weight:600;	
+}
+
+#smedia {
+	width:270px;
+	height: 200px;
+	display:inline-block;
+	position:relative;
+	background-color:white;	
 }
